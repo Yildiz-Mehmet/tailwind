@@ -16,7 +16,7 @@ function App() {
         src="https://www.planetware.com/wpimages/2020/02/france-in-pictures-beautiful-places-to-photograph-eiffel-tower.jpg"
         alt=""
       />
-      <ul className="grid grid-cols-4 space-y-4 ">
+      <ul className="grid hover:grid-cols-3">
         <a href="#">
           <li>ocak</li>
         </a>
