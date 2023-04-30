@@ -12,27 +12,30 @@ function App() {
         sapiente. Non quod qui voluptatum suscipit, optio eaque culpa magni
         dolor!
       </p>
-      <img
-        src="https://www.planetware.com/wpimages/2020/02/france-in-pictures-beautiful-places-to-photograph-eiffel-tower.jpg"
-        alt=""
-      />
-      <ul className="grid hover:grid-cols-3">
-        <a href="#">
-          <li>ocak</li>
-        </a>
-        <a href="#">
-          <li>ocak</li>
-        </a>
-        <a href="#">
-          <li>ocak</li>
-        </a>
-        <a href="#">
-          <li>ocak</li>
-        </a>
-        <a href="#">
-          <li>ocak</li>
-        </a>
-      </ul>
+      <div className="w-[450px] flex ">
+        <img
+          className=" rounded-full"
+          src="https://www.planetware.com/wpimages/2020/02/france-in-pictures-beautiful-places-to-photograph-eiffel-tower.jpg"
+          alt=""
+        />
+        <ul className="flex flex-col items-center">
+          <a className="items-center" href="#">
+            <li>ocak</li>
+          </a>
+          <a href="#">
+            <li>ocak</li>
+          </a>
+          <a href="#">
+            <li>ocak</li>
+          </a>
+          <a href="#">
+            <li>ocak</li>
+          </a>
+          <a href="#">
+            <li>ocak</li>
+          </a>
+        </ul>
+      </div>
     </div>
   );
 }
